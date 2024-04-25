@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+
+<p>Les jours de la semaine:</p> 
+
+<ul> 
+  {% for offre in offres %}
+    <li>
+      {{offre.title}}
+    </li>
+  {% endfor %}
+</ul>
